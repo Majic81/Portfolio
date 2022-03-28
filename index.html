@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css" I>
+    <link rel="stylesheet" href="src/styles.css" I>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto+Mono:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
     <title>
         Majd Behnana - Student, Tutor, Freenlancer.
     </title>
@@ -13,25 +14,86 @@
 <body>
 <section class="hero">
     <nav>
-        <div class="logo">LOGO</div>
+        <img class="logo" src="src/images/logo7.png" alt="M.B's Logo"/>
         <ul>
             <li>About</li>
             <li>Projects</li>
             <li>Contact</li>
         </ul>
     </nav>
-    <div class="hero-text">
-    <h1>Majd Behnana</h1>
-    <p>Student, Tutor, Coder and Freelancer </p>
-        <div class="button">About me</div>
-    </div>
+    <div class="hero-area">
+        <div class="hero-text">
+            <h1>Majd Behnana</h1>
+            <p>Student, Tutor, Coder and Freelancer </p>
+            <div class="button">About me</div>
+        </div>
+        <div class="socials">
+            <div><a href="https://open.spotify.com/user/11184669275?si=77bb87bdf9e446e4" class="social">
+                <svg width="50" height="50" viewBox="0 0 167.5 167.5">
+                    <path fill="#ffffff"
+                          d="M83.7 0C37.5 0 0 37.5 0 83.7c0 46.3 37.5 83.7 83.7 83.7 46.3 0 83.7-37.5 83.7-83.7S130 0 83.7 0zM122 120.8c-1.4 2.5-4.6 3.2-7 1.7-19.8-12-44.5-14.7-73.7-8-2.8.5-5.6-1.2-6.2-4-.2-2.8 1.5-5.6 4-6.2 32-7.3 59.6-4.2 81.6 9.3 2.6 1.5 3.4 4.7 1.8 7.2zM132.5 98c-2 3-6 4-9 2.2-22.5-14-56.8-18-83.4-9.8-3.2 1-7-1-8-4.3s1-7 4.6-8c30.4-9 68.2-4.5 94 11 3 2 4 6 2 9zm1-23.8c-27-16-71.6-17.5-97.4-9.7-4 1.3-8.2-1-9.5-5.2-1.3-4 1-8.5 5.2-9.8 29.6-9 78.8-7.2 109.8 11.2 3.7 2.2 5 7 2.7 10.7-2 3.8-7 5-10.6 2.8z"></path>
+                </svg>
+            </a></div>
+            <div><a href="https://www.youtube.com/channel/UCtkvDHUid2BDwYzbAdlThMg/playlists" class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24">
+                    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                </svg>
+            </a></div>
+            <div><a href="https://500px.com/p/mbehnana?view=photos" class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24">
+                    <path d="M5.926 15.765l.204.534c.396.935.961 1.775 1.683 2.497.721.721 1.561 1.287 2.497 1.683.969.41 1.998.617 3.058.617 1.06 0 2.089-.208 3.058-.618.936-.396 1.775-.962 2.497-1.683s1.288-1.561 1.684-2.497c.41-.969.618-1.998.618-3.058 0-1.06-.208-2.089-.618-3.058-.396-.935-.962-1.775-1.684-2.497-.721-.721-1.561-1.288-2.497-1.684-.969-.41-1.998-.617-3.058-.617-1.073 0-2.145.213-3.101.617-.763.323-2.056 1.155-2.812 1.935l-.004-6.46h10.86c.395-.004.395-.556.395-.737 0-.182 0-.733-.396-.738h-11.743c-.32 0-.518.266-.518.512v9.101c0 .293.366.505.706.578.664.142.817-.07.979-.295l.022-.03c.248-.369 1.023-1.149 1.031-1.157 1.21-1.21 2.828-1.876 4.555-1.876 1.72 0 3.333.667 4.543 1.876 1.214 1.214 1.883 2.823 1.883 4.53 0 1.713-.666 3.322-1.874 4.53-1.192 1.193-2.858 1.876-4.57 1.876-1.16 0-2.279-.309-3.238-.894l.004-5.533c0-.738.32-1.54.857-2.146.613-.692 1.458-1.073 2.379-1.073.893 0 1.726.338 2.347.954.616.611.956 1.424.956 2.291 0 1.849-1.454 3.297-3.31 3.297-.358 0-1.008-.158-1.035-.165-.375-.112-.534.409-.586.58-.202.66.101.791.164.81.597.185.989.22 1.503.22 2.62 0 4.752-2.133 4.752-4.754 0-2.601-2.13-4.716-4.749-4.716-1.283 0-2.487.49-3.393 1.38-.862.848-1.356 1.978-1.356 3.101v.028c-.004.14-.007 3.457-.008 4.545-.493-.545-.984-1.385-1.307-2.238-.126-.334-.412-.275-.802-.155-.172.052-.69.212-.576.587zm5.584-1.296c.001.159.147.299.234.382l.027.026c.149.147.291.221.422.221.109 0 .175-.051.199-.073l.879-.886.829.826c.077.086.16.13.257.132.132 0 .276-.079.428-.233.357-.365.179-.562.092-.657l-.839-.84.875-.881c.192-.208.023-.429-.146-.598-.246-.246-.482-.309-.634-.169l-.871.872-.88-.881c-.047-.044-.105-.068-.17-.068-.117 0-.256.08-.413.236-.271.271-.329.458-.188.607l.88.877-.875.877c-.071.073-.107.15-.106.23zm1.919-11.898c-1.407 0-2.904.284-4.004.76-.118.046-.188.141-.204.273-.014.125.02.29.104.505.068.174.25.637.6.503 1.125-.429 2.37-.666 3.504-.666 1.285 0 2.53.251 3.703.747.932.395 1.811.964 2.767 1.792.07.061.144.091.22.091.187 0 .365-.183.518-.354.255-.286.431-.524.179-.762-.913-.865-1.913-1.511-3.148-2.033-1.343-.568-2.77-.856-4.239-.856zm7.582 17.377c-.169-.169-.313-.269-.44-.305-.128-.037-.243-.009-.331.079l-.083.083c-.872.872-1.888 1.557-3.019 2.035-1.17.495-2.414.746-3.696.746s-2.525-.251-3.696-.746c-1.131-.478-2.146-1.163-3.019-2.035-.909-.909-1.594-1.924-2.035-3.019-.431-1.067-.572-1.87-.618-2.133l-.01-.057c-.059-.311-.345-.332-.756-.27-.17.026-.69.106-.641.48l.001.008c.138.866.381 1.714.723 2.523.549 1.299 1.336 2.466 2.337 3.467s2.168 1.788 3.467 2.337c1.346.57 2.774.859 4.247.859 1.472 0 2.901-.289 4.247-.858 1.298-.549 2.465-1.336 3.467-2.338l.087-.089c.11-.12.206-.33-.232-.767z"/>
+                </svg>
+            </a></div>
+            </a>
+        </div>
 
 </section>
-<section></section>
+
+
+<section class="sub-section">
+    <div class="information">
+        <h2> About me </h2>
+        <p> Hello. My name is Majd Behnana, I am a computer science student, a tutor and a hobby photographer with a
+            passion for design, colors and music </p>
+    </div>
+    <div class="headshot"><img class="personalPic" src="src/images/alpaka.jpg" alt="Majd Behnana personal pic"></div>
+</section>
+<section class="sub-section-alternative">
+    <h2> Projects </h2>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="" alt="Project One Image">
+            <h3>Project One</h3>
+            <p class="subtext"> This is my project and some text about it. I enjoyed making this project</p>
+            <hr/>
+            <p class="subtext"><a class="project-link" href="https://www.github.com">View here</a></p>
+        </div>
+        <div class="project-card">
+            <img src="" alt="Project One Image">
+            <h3>Project Two</h3>
+            <p class="subtext"> This is my project and some text about it. I enjoyed making this project</p>
+            <hr/>
+            <p class="subtext">View here</p>
+        </div>
+        <div class="project-card">
+            <img src="" alt="Project One Image">
+            <h3>Project Three</h3>
+            <p class="subtext"> This is my project and some text about it. I enjoyed making this project</p>
+            <hr/>
+            <p class="subtext">View here</p></div>
+        <div class="project-card">
+            <img src="" alt="Project One Image">
+            <h3>Project Four</h3>
+            <p class="subtext"> This is my project and some text about it. I enjoyed making this project</p>
+            <hr/>
+            <p class="subtext">View here</p>
+        </div>
+    </div>
+</section>
 <section></section>
 <footer></footer>
 
-<script src="">
+<script src="src/app.js">
 </script>
 </body>
 </html>
